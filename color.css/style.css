@@ -322,6 +322,12 @@ body{
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
+.footer-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
 .footer-studio {
     color: var(--title-color);
     font-size: 26px;
@@ -330,11 +336,12 @@ body{
     line-height: 1, 38;
     letter-spacing: 0.78px;
 }
-.footer-info {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
+.footer-logo{
+    color: var(--akcen-tcolor);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
 }
 
 
