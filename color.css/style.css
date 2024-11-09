@@ -1,0 +1,403 @@
+:root {
+    --akcen-tcolor: #2196F3;
+    --logo-colot: #000;
+    --main-text: #212121;
+    --et-textcolor: #757575;
+    --title-color: #FFFFFF;
+    --tim-background: #F5F4FA;
+    --footer-background: #2F303A;
+    --adres-color: rgba(255, 255, 255, 0, 60);
+    --line-color: #ECECEC;
+    --borter-color: #EEEEEE;
+}
+
+.container {
+    width: 1200px;
+    outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+}
+
+/* -----------header---------- */
+
+.header-logo {
+    color: var(--akcen-tcolor);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+.header-studio {
+    color: var(--logo-colot);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+.header-list {
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+}
+.header-all {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    margin-right: 93px;
+}
+.nav-link {
+    color: var(--main-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+.nav-studia {
+    color: var(--akcen-tcolor);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+.nav-item:hover {
+    color: var(--akcen-tcolor);
+}
+.header-link {
+    color: var(--et-textcolor);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+.header-linke {
+    color: var(--et-textcolor);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+/* -------header---P___D------- */
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+
+
+
+/* --------main-section--------- */
+
+.main-section {
+    background-color: var(--footer-background);
+}
+.sect {
+    background-color: var(--title-color);
+}
+
+.main-text {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+.main-button {
+    border-radius: 4px;
+    background: var(--akcen-tcolor);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px 32px;
+}
+.button-text {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.96px;
+}
+.sect-text {
+    color: var(--main-text);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.sect-mintext {
+    color: var(--et-textcolor);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+/* ------main-section----P__D------- */
+
+.batton-ul {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* ------чим ми займаемося------- */
+
+.sect-img-foto {
+    width: 370px;
+    height: 294px;
+}
+.sect-h2 {
+    color: var(--main-text);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+}
+.main-text {
+    width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.main-section {
+    text-align: center;
+}
+.sect-img-foto {
+    background-color: var(--title-color);
+    width: 270px;
+    height: 368px;
+    flex-shrink: 0;
+}
+
+/* --------чим ми займаемося--P___D----- */
+.main-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.sect {
+    padding-top: 94px;
+}
+.sect-work {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.sect-ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.sect-grosstext {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+
+
+/* --------Наша команда------------ */
+
+.uns {
+    background-color: var(--tim-background);
+}
+.uns-tim {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+}
+.uns-text {
+    color: var(--main-text);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1875;
+    letter-spacing: 0.48px;
+    margin-bottom: 10px;
+}
+.uns-tim {
+    color: var(--main-text);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.48px;
+}
+.uns-com {
+    color: var(--et-textcolor);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+}
+
+
+/* ---------Наша команда---P___d-------- */
+.uns {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.uns-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+.uns-gross-foto {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------footer---------- */
+
+.footer {
+    background-color: var(--footer-background);
+}
+
+
+.footer-map {
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.footer-gamil {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+.footer-num {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+.footer-studio {
+    color: var(--title-color);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1, 38;
+    letter-spacing: 0.78px;
+}
+.footer-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+
+/* -------fotter---P___D---- */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+/* ------хз откуда------ */
+
+.fotos {
+    padding-top: 125px;
+    padding-bottom: 114px;
+}
+.box7 {
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: none;
+}
+
+
+
+
+/* ----------portfoleo----------- */
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.work-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.work-all {
+    outline: 1px solid var(--borter-color);
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.work-taitle {
+    color: var(--main-text);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+    margin-bottom: 4px;
+}
+
+.work-text {
+    color: var(--et-textcolor);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+}
+
+.work-boxs {
+    padding: 20px 24px;
+
+}
+
+
