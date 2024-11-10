@@ -359,11 +359,6 @@ body{
     padding-top: 125px;
     padding-bottom: 114px;
 }
-.box7 {
-    padding: 6px 22px;
-    border-radius: 4px;
-    border: none;
-}
 
 
 
@@ -406,5 +401,9 @@ body{
     padding: 20px 24px;
 
 }
-
+.button-box {
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: none;
+}
 
