@@ -91,12 +91,21 @@ body{
     line-height: 1.14;
     letter-spacing: 0.28px;
 }
-.header-linke {
-    color: var(--et-textcolor);
+.header-link:hover{
+    color: var(--akcen-tcolor);
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.14;
     letter-spacing: 0.28px;
+}
+.header-icon{
+    fill: var(--et-textcolor);
+    width: 16px;
+    height: 12px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+.header-icon:hover{
+    fill: var(--akcen-tcolor);
 }
 /* -------header---P___D------- */
 .header {
