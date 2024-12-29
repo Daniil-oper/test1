@@ -104,6 +104,7 @@ body{
 
 .main-section {
     background-color: var(--footer-background);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(./backraund/Img.jpg);
 }
 .sect {
     background-color: var(--title-color);
