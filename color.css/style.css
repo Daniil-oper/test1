@@ -226,10 +226,57 @@ body{
     justify-content: center;
     gap: 30px;
 }
+.sect-one::before{
 
+    border-radius: 4px;
+    background: #F5F4FA;
 
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
 
+    content: url(../fotos/antenna.png);
 
+    margin-bottom: 25px;
+    margin-left: 100px;
+
+}
+.sect-two::before{
+    content: url(../fotos/clock.png);
+
+    display: inline-block;
+    border-radius: 4px;
+    background: #F5F4FA;
+
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+
+}
+.sect-thire::before{
+    content: url(../fotos/diagram.png);
+
+    display: inline-block;
+    border-radius: 4px;
+    background: #F5F4FA;
+
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+
+}
+.sect-four::before{
+    content: url(../fotos/astronaut.png);
+
+    display: inline-block;
+    border-radius: 4px;
+    background: #F5F4FA;
+
+    width: 270px;    
+    height: 120px;
+    flex-shrink: 0;
+
+}
 
 
 /* --------Наша команда------------ */
