@@ -13,7 +13,7 @@
 
 .container {
     width: 1200px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -175,19 +175,16 @@ body{
     gap: 8px;
     margin-bottom: 50px;
 }
-
-
-
-
+.sect-img-foto {
+    width: 370px;
+    height: 294px;
+}
 
 
 
 /* ------чим ми займаемося------- */
 
-.sect-img-foto {
-    width: 370px;
-    height: 294px;
-}
+
 .sect-h2 {
     color: var(--main-text);
     text-align: center;
@@ -203,12 +200,6 @@ body{
 }
 .main-section {
     text-align: center;
-}
-.sect-img-foto {
-    background-color: var(--title-color);
-    width: 270px;
-    height: 368px;
-    flex-shrink: 0;
 }
 
 /* --------чим ми займаемося--P___D----- */
@@ -250,7 +241,6 @@ body{
     color: #212121;
     text-align: center;
     font-size: 36px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.16;
     letter-spacing: 1.08px;
@@ -276,20 +266,19 @@ body{
     color: var(--et-textcolor);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
 }
-.usn-foto{
+.uns-foto{
     width: 270px;
     height: 428px;
     flex-shrink: 0;
 
     border-radius: 0px 0px 4px 4px;
-    background: var(--title-color);
+    background: #FFF;
 
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 
@@ -436,14 +425,22 @@ body{
 }
 .work-button:hover{
     border-radius: 4px;
-    background-color: var(--akcen-tcolor);
+    background: #2196F3;
 
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
-.button-box {
+.work-button-box {
     padding: 6px 22px;
     border-radius: 4px;
     border: none;
+
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625; 
+    letter-spacing: 0.48px; 
 }
 
