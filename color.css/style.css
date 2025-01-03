@@ -13,7 +13,7 @@
 
 .container {
     width: 1200px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -50,7 +50,7 @@ body{
 .header-list {
     display: flex;
     margin-left: auto;
-    gap: 50px;
+    gap: 30px;
 }
 .header-item:hover{
     color: var(--akcen-tcolor);
@@ -103,8 +103,20 @@ body{
     height: 12px;
     flex-shrink: 0;
     margin-right: 10px;
+
+}
+.header-icons{
+    fill: var(--et-textcolor);
+    width: 10px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-right: 10px;
+
 }
 .header-icon:hover{
+    fill: var(--akcen-tcolor);
+}
+.header-icons:hover{
     fill: var(--akcen-tcolor);
 }
 /* -------header---P___D------- */
@@ -226,9 +238,22 @@ body{
     justify-content: center;
     gap: 30px;
 }
+
+.sect-one{
+
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+
+    text-align: center;
+    border-radius: 4px;
+    background-color: #F5F4FA;         
+
+    margin-bottom: 30px;
+}
 .sect-one::before{
 
-    border-radius: 4px;
+    /* border-radius: 4px;
     background: #F5F4FA;
 
     width: 270px;
@@ -238,7 +263,16 @@ body{
     content: url(../fotos/antenna.png);
 
     margin-bottom: 25px;
-    margin-left: 100px;
+    margin-left: 100px; */
+
+
+    content: '';
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px;
+    background: url('../fotos/antenna.png') no-repeat center;
+    background-size: contain;
 
 }
 .sect-two::before{
