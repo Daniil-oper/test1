@@ -440,6 +440,7 @@ svg:last-child {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 110px;
+    gap: 30px;
 }
 
 
@@ -496,14 +497,28 @@ svg:last-child {
     line-height: 1.38;
     letter-spacing: 0.78px;
 }
-
+.footer-texs{
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
 
 /* -------fotter---P___D---- */
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
+.footer-icon{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: var(--title-color);
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 4px;
+}
 
 
 /* ------хз откуда------ */
