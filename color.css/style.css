@@ -361,8 +361,35 @@ body{
 
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
+.uns-icon{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    gap: 34px;
+    fill: #AFB1B8;
+    margin-top: 16px;
 
-
+}
+.uns-icon:hover{
+    fill: #FFFFFF;
+    background: #2196F3;
+    border-radius: 50px 50px 50px 50px;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+.uns-icons{
+    gap: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    margin-right: 10px; 
+}
+svg:last-child {
+    margin-right: 0; 
+}
 
 
 /* ---------Наша команда---P___d-------- */
@@ -382,11 +409,38 @@ body{
     margin-top: 50px;
 }
 
+/* -------Постійні клієнти-------------------- */
 
-
-
-
-
+.aside{
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+.aside-icon{
+    fill: #AFB1B8;
+    width: 106px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #FFF;
+    outline: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.aside-icon:hover{
+    fill: #2196F3;
+    background: #FFF;
+    outline: 1px solid #2196F3;
+    border-radius: 4px;
+}
+.aside-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
 
 
 
