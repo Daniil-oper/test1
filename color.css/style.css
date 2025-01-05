@@ -505,12 +505,6 @@ svg:last-child {
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
-
-/* -------fotter---P___D---- */
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
 .footer-icon{
     width: 20px;
     height: 20px;
@@ -519,6 +513,12 @@ svg:last-child {
     background: rgba(255, 255, 255, 0.10);
     border-radius: 4px;
 }
+/* -------fotter---P___D---- */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 
 
 /* ------хз откуда------ */
