@@ -442,7 +442,10 @@ svg:last-child {
     margin-bottom: 110px;
     gap: 30px;
 }
-
+.aside-line{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 
 
