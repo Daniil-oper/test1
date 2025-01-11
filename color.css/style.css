@@ -90,6 +90,10 @@ body{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .header-link:hover{
     color: var(--akcen-tcolor);
@@ -365,24 +369,23 @@ body{
     width: 20px;
     height: 20px;
     flex-shrink: 0;
-    gap: 34px;
+    gap: 10px;
     fill: #AFB1B8;
-    margin-top: 16px;
 
 }
 .uns-icon:hover{
     fill: #FFFFFF;
     background: #2196F3;
     border-radius: 50px 50px 50px 50px;
-    width: 44px;
-    height: 44px;
     flex-shrink: 0;
+
 }
 .uns-icons{
-    gap: 34px;
+    gap: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
 }
 svg{
     margin-right: 10px; 
@@ -390,7 +393,14 @@ svg{
 svg:last-child {
     margin-right: 0; 
 }
-
+.uns-icon-info{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ---------Наша команда---P___d-------- */
 .uns {
@@ -439,14 +449,21 @@ svg:last-child {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 110px;
     gap: 30px;
+    margin-bottom: 110px;
 }
 .aside-line{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+.aside-best-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 60px;
+    flex-shrink: 0;
+}
 
 
 
