@@ -316,6 +316,40 @@ body{
     flex-shrink: 0;
 
 }
+.sect-img{
+    position: absolute;
+    
+    width: 370px;
+    height: 294px;
+}
+.sect-posisen{
+    position: relative;
+    margin-top: 224px;
+
+    width: 370px;
+    height: 70px;
+    flex-shrink: 0;
+    background: rgba(47, 48, 58, 0.80);
+    margin-top: 224px;
+}
+.sect-info{
+    /* margin-top: 251px; */
+
+    color: var(--title-color);
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-top: 27px;
+
+
+
+
+
+}
 
 
 /* --------Наша команда------------ */
