@@ -660,9 +660,9 @@ svg:last-child {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.20);
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .modal{
     width: 528px;
@@ -671,20 +671,43 @@ svg:last-child {
     background: #FFF;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 
-    /* position: absolute;
-    top: 50%;                   способ 2 центер
+    position: absolute;
+    top: 50%;                   
     left: 50%;
-    transform: translate(-50%,-50%); */
+    transform: translate(-50%,-50%);
+    /* способо 2 */
+    opacity: 1;
 }
+
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
 .modal-close{
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     background-color: transparent;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: 1px solid rgba(0, 0, 0, 0.20);
+    border: none;
+    position: absolute;
+    right: 8px;
 }
-
+.modal-close:hover,
+.modal-close:focus{
+    .modal-button{
+        fill: var(--akcen-tcolor);
+    }
+}
+.modal-button{
+    width: 18px;
+    height: 18px;
+    
+}
 
 

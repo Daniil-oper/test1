@@ -75,7 +75,7 @@
       <section class="main-section">
         <div class="container">
           <h1 class="main-text">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="main-button">
+          <button type="button" class="main-button" data-modal-open>
             <span class="button-text">Замовити послугу</span>
           </button>
         </div>
@@ -443,11 +443,13 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button"><svg class="modal-close">
+        <button type="button" class="modal-button" data-modal-close><svg class="modal-close">
           <use href="./symboldefts.svg/symbol-defs4.svg#icon-close"></use>
         </svg></button>
+        
+
       </div>
     </div>
 
