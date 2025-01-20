@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./color.css/style.css" />
     <link rel="stylesheet" href="./color.css/reset.css" />
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -448,10 +449,28 @@
         <button type="button" class="modal-button" data-modal-close><svg class="modal-close">
           <use href="./symboldefts.svg/symbol-defs4.svg#icon-close"></use>
         </svg></button>
-        
+        <form>
+          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <label class="modal-label">Ім'я
+            <input type="text" class="modal-input">
+          </label>
+          <label class="modal-label">Телефон
+            <input type="tel" class="modal-input">
+          </label>
+          <label class="modal-label">Пошта
+            <input type="email" class="modal-input">
+          </label>
+          <label class="modal-label">Коментар
+            <textarea name="" class="modal-inputs" placeholder="Введіть текст"></textarea>
+          </label>
+          <label for=""></label>
+          <input type="checkbox" class="modal-chek"><a href="" class="modal-main">Погоджуюся з розсилкою та приймаю</a>
+
+          <a href="" class="modal-list">Умови договору</a>
+        </form>
 
       </div>
     </div>
-
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -677,6 +677,7 @@ svg:last-child {
     transform: translate(-50%,-50%);
     /* способо 2 */
     opacity: 1;
+    padding: 40px;
 }
 
 .is-hidden{
@@ -707,7 +708,322 @@ svg:last-child {
 .modal-button{
     width: 18px;
     height: 18px;
-    
 }
+.modal-title{
+    width: 448px;
+    color: var(--main-text);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 12px;
+}
+.modal-label{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+.modal-input{
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.modal-inputs{
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    margin-top: 4px;
+    margin-bottom: 20px;
+    resize: none;
+
+
+    /* color: rgba(117, 117, 117, 0.50);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px; */
+}
+.modal-flex{
+    color: var(--et-textcolor);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
+.modal-main{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.modal-list{
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
