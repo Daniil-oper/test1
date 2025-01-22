@@ -808,10 +808,13 @@ svg:last-child {
     margin-right: auto;
     margin-left: auto;
 }
-
-
-
-
+.modal-svg{
+    width: 18px;
+    height: 18px;
+}
+.modal-svg:hover{
+    
+}
 
 
 
