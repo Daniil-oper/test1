@@ -666,7 +666,7 @@ svg:last-child {
 }
 .modal{
     width: 528px;
-    height: 581px;
+    /* height: 581px; */
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
@@ -772,6 +772,7 @@ svg:last-child {
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
+    margin-left: 8px;
 }
 .modal-list{
     color: #2196F3;
@@ -788,8 +789,25 @@ svg:last-child {
     text-underline-offset: auto;
     text-underline-position: from-font;
 }
+.modal-cuki{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.modal-but{
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
 
-
+    padding: 10px 52px;
+    margin-top: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 
 
